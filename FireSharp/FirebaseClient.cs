@@ -11,6 +11,7 @@ namespace FireSharp
 {
     public class FirebaseClient : IFirebaseClient, IDisposable
     {
+        public static string v3 = "v3";
         private readonly Action<HttpStatusCode, string> _defaultErrorHandler = (statusCode, body) =>
         {
             if (statusCode < HttpStatusCode.OK || statusCode >= HttpStatusCode.BadRequest)

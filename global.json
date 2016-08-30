@@ -1,0 +1,6 @@
+{
+  "projects": [ "FireSharp.Test.Console", "FireSharp", "FireSharp.Tests" ],
+  "sdk": {
+    "version": "1.0.0"
+  }
+}
